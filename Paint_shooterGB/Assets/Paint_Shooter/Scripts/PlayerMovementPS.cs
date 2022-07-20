@@ -15,6 +15,6 @@ public class PlayerMovementPS : MonoBehaviour
 
         view.y = Input.GetAxis("HorizontalView");
         view.x = Input.GetAxis("VerticalView");
-        transform.rotation += view;
+        //transform.rotation += view;
     }
 }
